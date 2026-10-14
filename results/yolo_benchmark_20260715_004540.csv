@@ -1,0 +1,6 @@
+﻿model,avg_inference_ms,avg_fps,avg_confidence,avg_detections_per_frame,frames_tested
+YOLOv5n,233.96,4.27,0.128,0.28,100
+YOLOv8n,197.81,5.06,0.301,0.54,100
+YOLOv9t,314.02,3.18,0.938,1.0,100
+YOLOv10n,213.33,4.69,0.326,0.54,100
+YOLO11n,224.93,4.45,0.257,0.55,100

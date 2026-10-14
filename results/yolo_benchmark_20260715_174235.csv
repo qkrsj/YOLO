@@ -1,0 +1,6 @@
+﻿model,success_rate,avg_recognition_time_sec,avg_confidence,trials
+YOLOv5n,1.0,0.499,0.516,5
+YOLOv8n,1.0,0.503,0.458,5
+YOLOv9t,1.0,0.366,0.609,5
+YOLOv10n,0.4,4.345,0.405,5
+YOLO11n,1.0,0.173,0.611,5

@@ -1,0 +1,6 @@
+﻿model,success_rate,avg_recognition_time_sec,avg_confidence,trials
+YOLO26n,1.0,1.23,0.952,15
+YOLO26s,1.0,0.744,0.955,15
+YOLO26m,1.0,1.391,0.957,15
+YOLO26l,1.0,1.812,0.978,15
+YOLO26x,1.0,3.053,0.971,15
