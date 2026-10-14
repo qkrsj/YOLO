@@ -10,6 +10,25 @@
 | 이전 세대 경량 모델 | YOLOv5n(`yolov5nu`), YOLOv8n, YOLOv9t, YOLOv10n, YOLO11n |
 | YOLO26 크기별 | YOLO26n, YOLO26s, YOLO26m, YOLO26l, YOLO26x |
 
+## 모델 가중치 (.pt)
+
+가중치 파일은 용량 문제로 레포에 포함하지 않았습니다. 스크립트의 `MODELS`에 적힌 파일명 그대로 ultralytics가 최초 실행 시 자동으로 내려받습니다. 측정에 사용한 파일은 다음과 같습니다.
+
+| 모델 | 파일명 | 크기 |
+|---|---|---:|
+| YOLOv5n | `yolov5nu.pt` | 5.3 MB |
+| YOLOv8n | `yolov8n.pt` | 6.2 MB |
+| YOLOv9t | `yolov9t.pt` | 4.7 MB |
+| YOLOv10n | `yolov10n.pt` | 5.6 MB |
+| YOLO11n | `yolo11n.pt` | 5.4 MB |
+| YOLO26n | `yolo26n.pt` | 5.3 MB |
+| YOLO26s | `yolo26s.pt` | 19.5 MB |
+| YOLO26m | `yolo26m.pt` | 42.2 MB |
+| YOLO26l | `yolo26l.pt` | 50.7 MB |
+| YOLO26x | `yolo26x.pt` | 113.2 MB (GitHub 파일 제한 100MB 초과) |
+
+모델이 커질수록 파일 크기도 크게 늘어납니다. 인식 시간이 길어지는 결과와 같은 방향입니다.
+
 ## 측정 방법
 
 세 가지 스크립트로 두 종류의 지표를 측정했습니다.
